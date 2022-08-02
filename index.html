@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>This is the title of the webpage!</title>
+  </head>
+  <body>
+    <div id="wordBoard">
+    
+    </div>
+    <div>
+    <input type="hidden" id="wordField" name="wordField" class="wordField" value="test" cols="2" readonly><br><br>
+    <input type="text" id="fname" name="inputField" class="inputField"  ><br><br>
+    <script src="/mainTypingTest.js" type="text/javascript"></script>
+    <button onclick="restartGame()">restart</button>
+    <p class="countDown" >1:00</p>
+    <div id="scoreBoard">
+      <h1>your score</h1>
+      <span>You wrote </span><span id="WPM">0</span><span>WPM</span>
+      <span>with a total of </span><span id="correctWords">0</span><span> Words</span>
+      <span>sadly you got </span><span id="faultyWords">0</span><span> Words wrong</span>
+    </div>    
+
+    <div class="test"> </div>
+    <div class="ScoreTest">0</div>
+  </div>
+  </body>
+</html>

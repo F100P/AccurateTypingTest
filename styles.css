@@ -1,0 +1,40 @@
+#wordBoard{
+    display: block;
+    width: 500px;
+    border: solid green;
+    height: 3em;
+    background-color: aquamarine;
+    margin: auto;
+    
+    overflow: hidden;
+}
+#wordBoard span{
+    position: relative;
+    top:-2px;
+    margin: 0.25em;
+    display: block;
+}
+
+#wordBoard > span {
+    display: inline-block;
+  }
+
+#scoreBoard {
+    display: none;
+}
+
+div > *{
+    justify-content: center;
+    margin: auto;
+    display: block;
+    
+}
+
+.activeWord{
+    background-color: aqua;
+    border-radius: 10%;
+}
+
+#countDown{
+    display: none;
+}
